@@ -29,3 +29,11 @@ body {
 .footer__link {
   color: #ddd;
 }
+
+/* Back to top */
+.back {
+  width: 54px;
+  height: 54px;
+  right: 10px;
+  bottom: 10px;
+}
