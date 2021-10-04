@@ -1,0 +1,50 @@
+<!-- Button trigger modal -->
+<button
+  type="button"
+  class="btn btn-primary justify-content-lg-end"
+  data-bs-toggle="modal"
+  data-bs-target="#getStartedModal"
+>
+  Get Started
+</button>
+
+<!-- Modal -->
+<div
+  class="modal fade"
+  id="getStartedModal"
+  tabindex="-1"
+  aria-labelledby="getStartedModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="getStartedModalLabel">Get Started Now!</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <form">
+          <div class="mb-3">
+            <label for="contactEmail" class="form-label"
+              >Enter Your Email For Newletter</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="contactEmail"
+              placeholder="name@example.com"
+            />
+          </div>
+          <div class="mb-3">
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
